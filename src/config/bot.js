@@ -78,7 +78,7 @@ export const botConfig = {
     deleteApprovedAfter: 30, 
 
     // Role IDs allowed to manage applications.
-    managerRoles: [1482086906614255797 1496546005682749681], // Will be populated from environment or database
+    managerRoles: [1482086906614255797], // Will be populated from environment or database
   },
 
   // =========================
@@ -141,7 +141,7 @@ export const botConfig = {
       icon: null,
     },
     // Default thumbnail URL for embeds (null = no thumbnail).
-    thumbnail: :
+    thumbnail:null,
     author: {
       // Optional default embed author block.
       name: null,
