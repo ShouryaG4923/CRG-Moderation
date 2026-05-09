@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Powered By Cosmos Racing Group",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -88,22 +88,22 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#80641B", 
+      secondary: "#80641B", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
+      success: "#80641B", 
       error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      warning: "#80641B", 
+      info: "#80641B", 
 
       // Neutral utility colors.
-      light: "#FFFFFF",
-      dark: "#202225",
+      light: "#80641B",
+      dark: "#80641B",
       gray: "#99AAB5",
 
       // Discord-style palette shortcuts.
-      blurple: "#5865F2",
+      blurple: "#80641B",
       green: "#57F287",
       yellow: "#FEE75C",
       fuchsia: "#EB459E",
@@ -112,18 +112,18 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
+        active: "#80641B",
         ended: "#ED4245",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
+        open: "#80641B",
+        claimed: "#80641B",
         closed: "#ED4245",
         pending: "#99AAB5",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#80641B",
+      birthday: "#80641B",
+      moderation: "#80641B",
 
       // Ticket priority color mapping.
       priority: {
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "CRG Moderation",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -156,9 +156,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "CRG Coins",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "CRG Coins",
       // Currency symbol shown in balances.
       symbol: "$",
     },
@@ -210,27 +210,27 @@ export const botConfig = {
     priorities: {
       none: {
         emoji: "⚪",
-        color: "#95A5A6",
+        color: "#80641B",
         label: "None",
       },
       low: {
         emoji: "🟢",
-        color: "#2ECC71",
+        color: "#80641B",
         label: "Low",
       },
       medium: {
         emoji: "🟡",
-        color: "#F1C40F",
+        color: "#80641B",
         label: "Medium",
       },
       high: {
         emoji: "🔴",
-        color: "#E74C3C",
+        color: "#80641B",
         label: "High",
       },
       urgent: {
         emoji: "🚨",
-        color: "#E91E63",
+        color: "#80641B",
         label: "Urgent",
       },
     },
@@ -289,7 +289,7 @@ export const botConfig = {
   // =========================
   verification: {
     // Message shown when posting the verification panel.
-    defaultMessage: "Click the button below to verify yourself and gain access to the server!",
+    defaultMessage: "Click the button below to verify yourself and gain access to the CRG server! ",
 
     // Text on the verification button.
     defaultButtonText: "Verify",
