@@ -78,7 +78,7 @@ export const botConfig = {
     deleteApprovedAfter: 30, 
 
     // Role IDs allowed to manage applications.
-    managerRoles: [], // Will be populated from environment or database
+    managerRoles: [1482086906614255797 1496546005682749681], // Will be populated from environment or database
   },
 
   // =========================
@@ -141,7 +141,7 @@ export const botConfig = {
       icon: null,
     },
     // Default thumbnail URL for embeds (null = no thumbnail).
-    thumbnail: null,
+    thumbnail: https://media.discordapp.net/attachments/1475475979425284207/1501459381081079829/SERVER_RULES_11.png?ex=6a001b04&is=69fec984&hm=312c946e33e6fa682b6af313be4145aad25511e8ca5b1104d9f3e102aaf1f716&=&format=webp&quality=lossless&width=1314&height=269,
     author: {
       // Optional default embed author block.
       name: null,
@@ -160,28 +160,28 @@ export const botConfig = {
       // Plural display name.
       namePlural: "CRG Coins",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "CRG",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 5000,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 10000000,
 
     // Daily reward amount.
     dailyAmount: 100,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 6000,
+    workMax: 10000,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 700,
+    begMax: 8000,
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.8,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
