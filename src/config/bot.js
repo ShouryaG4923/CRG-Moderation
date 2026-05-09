@@ -141,7 +141,7 @@ export const botConfig = {
       icon: null,
     },
     // Default thumbnail URL for embeds (null = no thumbnail).
-    thumbnail: https://media.discordapp.net/attachments/1475475979425284207/1501459381081079829/SERVER_RULES_11.png?ex=6a001b04&is=69fec984&hm=312c946e33e6fa682b6af313be4145aad25511e8ca5b1104d9f3e102aaf1f716&=&format=webp&quality=lossless&width=1314&height=269,
+    thumbnail: ://media.discordapp.net/attachments/1475475979425284207/1501459381081079829/SERVER_RULES_11.png?ex=6a001b04&is=69fec984&hm=312c946e33e6fa682b6af313be4145aad25511e8ca5b1104d9f3e102aaf1f716&=&format=webp&quality=lossless&width=1314&height=269,
     author: {
       // Optional default embed author block.
       name: null,
